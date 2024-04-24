@@ -1,145 +1,174 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="styles.scss">
-<link rel="stylesheet" href="script.js">
-<div class="resume-wrapper">
-	<section class="profile section-padding">
-		<div class="container">
-			<div class="picture-resume-wrapper">
-        <div class="picture-resume">
-        <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span>
-        <svg version="1.1" viewBox="0 0 350 350">
-  
-  <defs>
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-    </filter>
-  </defs>
-  
-  
-<g filter="url(#goo)" >  
-  
-  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-  
-  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
-
-</g>  
-</svg>
-      </div>
-         <div class="clearfix"></div>
- </div>
-      <div class="name-wrapper">
-        <h1>John <br/>Anderson</h1><!-- YOUR NAME AND LAST NAME  -->
-      </div>
-      <div class="clearfix"></div>
-      <div class="contact-info clearfix">
-      	<ul class="list-titles">
-      		<li>Call</li>
-      		<li>Mail</li>
-      		<li>Web</li>
-      		<li>Home</li>
-      	</ul>
-        <ul class="list-content ">
-        	<li>+34 123 456 789</li> <!-- YOUR PHONE NUMBER  -->
-        	<li>j.anderson@gmail.com</li> <!-- YOUR EMAIL -->
-        	<li><a href="#">janderson.com</a></li> <!-- YOUR WEBSITE  -->
-        	<li>Los Angeles, CA</li> <!-- YOUR STATE AND COUNTRY  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Vitae</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="me.JPG">
+                </div>
+                <h2>Juan Luis Ruano</h2>
+            </div>
+            <div class="contactInfo">
+                <h3 class="title">Contacto de Información</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">+502 3840 5675</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">jlruanol@correo.url.edu.gt</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">Guatemala City, Guatemala</span>
+                    </li>
+                </ul>
+        </div>
+        <div class="contactInfo education">
+            <h3 class="title">Educación</h3>
+            <ul>
+                <li>
+                    <h5>Actualmente</h5>
+                    <h4>2do Año en Ingeniería de Informática y Sistemas</h4>
+                     <h4>Universidad Rafael Landívar</h4>
+                </li>
+                <li>
+                    <h5>2021 - 2022</h5>
+                   <h4>Bachillerato en Ciencias y Letras con Orietación en Computación y Highschool</h4>
+                    <h4>Colegio Montano</h4>
+                 </li>
+            </ul>
+    </div>
+    <div class="contactInfo language">
+        <h3 class="title">Idiomas</h3>
+        <ul>
+            <li>
+            <span class="text">English</span>
+            <h5>B2</h5>
+            <span class="percent">
+                <div style="width: 95%;"></div>
+            </span>
+            </li>
+            <li>
+                <span class="text">Español</span>
+                <h5>Nativo</h5>
+                <span class="percent"> 
+                    <div style="width: 99%;"></div>
+                </span>
+            </li>
         </ul>
-      </div>
-      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-      	<p><span class="bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec imperdiet purus. </p>
-      </div>
-      <div class="contact-social clearfix">
-      	<ul class="list-titles">
-      		<li>Twitter</li>
-      		<li>Dribbble</li>
-      		<li>Codepen</li>
-      	</ul>
-        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-      		<li><a href="">@janderson</a></li> <!-- YOUR TWITTER USER  -->
-      		<li><a href="">janderson</a></li> <!-- YOUR DRIBBBLE USER  -->
-      		<li><a href="">janderson</a></li> <!-- YOUR BEHANCE USER  -->
-      	</ul>
-      </div>
-		</div>
-	</section>
-  
-  <section class="experience section-padding">
-  	<div class="container">
-  		<h3 class="experience-title">Experience</h3>
-      
-      <div class="experience-wrapper">
-      	<div class="company-wrapper clearfix">
-      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-        <div class="job-wrapper clearfix">
-        	<div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-          </div>
+    </div>
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Perfil</h2>
+                <p>
+                    Soy alguien que siempre está buscando nuevas formas de destacar y dar la milla extra. Al programar, 
+                    me centro en hacer las cosas funcionales, pero manteniendo enfrente la eficiencia. Aunque no tengo 
+                    mucha experiencia, me adapto rápido y me llevo bien en equipo, ya sea liderando o colaborando.
+                    Puedo concentrarme bien y soy responsable y leal. También puedo trabajar independientemente 
+                    cuando es necesario. Buscó valerme por mi mismo, sin dejar de lado la ayuda de mis colegas y 
+                    superiores a la hora de trabajar. Investigó constantemente para mantenerme al día con todo lo que pueda 
+                    ser de utilidad en mi desarrollo, tanto personal como laboral.
+                </p>
+            </div>
+            <div class="about"></div>
+                <h2 class="title2">Experiencia en proyectos</h2>
+                <div class="box">
+                    <div class="year_project">
+                        <h5>2023 - Actualmente</h5>
+                        <h5>1er Año de Universidad: InMemoryDB</h5>
+                        <p>
+                            El proyecto era un almacenador de memoria que usaba búsqueda binaria basada en hashes,
+                            el proyecto lo desarrolle por mi cuenta con ayuda de referencias y su documentación fue
+                            creada con LaTeX.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_project">
+                        <h5>2022</h5>
+                        <h5>5to Bachillerato: Página Web Con Base de Datos</h5>
+                        <p>
+                            El proyecto fue grupal; era simple usando SQL conectado con php a la página, yo me desempeñe en la
+                            creación de los sistemas de acceso del usuario y los diferentes tipos de usuarios que podían
+                            existir dentro de la página según como ingresaban.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about skills">
+                <h2 class="title2">Habilidades Profesionales</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent"> 
+                        <div style="width: 99%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent"> 
+                        <div style="width: 99%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C++</h4>
+                    <div class="percent"> 
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C#</h4>
+                    <div class="percent"> 
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Java</h4>
+                    <div class="percent"> 
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JavaScript</h4>
+                    <div class="percent"> 
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>TypeScript</h4>
+                    <div class="percent"> 
+                        <div style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Diseño</h4>
+                    <div class="percent"> 
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about interest">
+                <h2 class="title2">Intereses</h2>
+                <ul>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Videojuegos (2D/FPS/Sandbox)</li>
+                    <li><i class="fa fa-cubes" aria-hidden="true"></i> Blender</li>
+                    <li><i class="fa fa-camera" aria-hidden="true"></i> Fotografía</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i> Cocina</li>
+                </ul>
+            </div>
         </div>
-        
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div> 
-        
-         <div class="job-wrapper clearfix">
-        	<div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
-          <div class="company-description">
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>   <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-      </div><!--Skill experience-->
-      
-      <div class="section-wrapper clearfix">
-      	<h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
-        	<ul>
-        		<li class="skill-percentage">HTML / HTML5</li>
-        		<li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
-        		<li class="skill-percentage">Javascript</li>
-        		<li class="skill-percentage">Jquery</li>
-        		<li class="skill-percentage">Wordpress</li>
-        		<li class="skill-percentage">Photoshop</li>
-            
-        	</ul>
-        
-      </div>
-      
-      <div class="section-wrapper clearfix">
-        <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p> 
-      </div>
-      
-  	</div>
-  </section>
-  
-  <div class="clearfix"></div>
-</div>
+    </div>
+</body>
+</html>
