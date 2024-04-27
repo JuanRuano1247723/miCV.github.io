@@ -135,7 +135,7 @@ body
    height: 100%;
    background: #03a9f4;
 }
-.contactInfo.language .percent h5
+.contactInfo.language h5
 {
     color: #03a9f4;
     font-weight: 500;
@@ -171,14 +171,20 @@ p
     flex-direction: row;
     margin: 20px 0;
 }
-.about .box .year_company
+.about .box .year_project
 {
    min-width: 125px;
 }
-.about .box .year_company h5
+.about .box .year_project h5
 {
     text-transform: uppercase;
-    color: #d3cbcb;
+    color: #b2adad;
+    font-weight: 600;
+}
+.about .box .year_project h4
+{
+    text-transform: uppercase;
+    color: #6d6a6a;
     font-weight: 600;
 }
 .about .box .text h4
@@ -199,7 +205,7 @@ p
 .skills .box h4
 {
  text-transform: uppercase;
- color: #d3cbcb;
+ color: #606060;
  font-weight: 500;
 }
 .skills .box .percent
@@ -214,7 +220,7 @@ p
     position: absolute;
     top: 0;
     left: 0;
-    height: 0;
+    height: 100%;
     background: #03a9f4 ;
 }
 .interest ul
